@@ -1,0 +1,44 @@
+
+1) Seu desafio é criar um sistema de cadastro de usuário e funcionário:
+
+    - Formulário de cadastro com campos para nome, email e senha.
+
+    - Validação dos campos para garantir que todos sejam preenchidos corretamente.
+
+    - Validação dos campos para garantir que todos sejam preenchidos corretamente.
+
+2) Cadastro de funcionário:
+
+    - Formulário de cadastro com campos para nome, cargo e salário.
+
+    - Validação dos campos para garantir que todos sejam preenchidos corretamente.
+
+    - Armazenamento dos dados do funcionário em um banco de dados.
+
+3) Requisitos Técnicos:
+
+    - Utilize PHP para processar os formulários e interagir com o banco de dados.
+
+    - Use HTML para a estruturação dos formulários.
+
+    - Estilize os formulários com CSS para uma apresentação atraente e responsiva.
+
+    - Utilize JavaScript para validação dos campos dos formulários antes do envio.
+
+4) Critérios de Avaliação:
+    Seu código será avaliado com base nos seguintes critérios:
+
+    - Funcionalidade: As funcionalidades de cadastro de usuário e funcionário devem estar completamente implementadas e funcionais.
+
+    - Qualidade do Código: Seu código deve ser organizado, legível e seguir boas práticas de programação.
+    
+    - Usabilidade: A interface do usuário deve ser intuitiva e fácil de usar.
+    
+    - Design Responsivo: Os formulários devem ser apresentados de forma agradável em diferentes dispositivos e tamanhos de tela.
+
+5)Entrega:
+
+    Após concluir o desenvolvimento do sistema, envie seu código-fonte e quaisquer instruções necessárias para executá-lo para o seguinte endereço de e-mail: otd_ej@outlook.com . Certifique-se de incluir quaisquer dependências ou configurações adicionais que possam ser necessárias.
+
+
+
