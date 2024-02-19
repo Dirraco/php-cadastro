@@ -128,20 +128,38 @@
 #forgot_password a:hover {
     color: var(--color-purple-50);
 }
+
+.enviar-dados {
+    display: flex;
+    gap: 10px;
+}
+
 #login_button {
     border: none;
     background: var(--color-gradient);
     color: var(--color-light-50);
     padding: 7px;
+    width:  50%;
     font-size: 18px;
     border-radius: 3px;
     font-weight: bold;
     cursor: pointer;
 }
+#login_button a {
+    border: none;
+    background: var(--color-gradient);
+    color: var(--color-light-50);
+    width:  50%;
+    font-size: 18px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
 
 #login_button:hover {
     transform: scale(1.05);
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .dark#login_form {
