@@ -51,7 +51,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    padding: 3rem;
+    padding: 2rem 2rem;
     font-size: 1.5em;
     cursor: pointer;
 }
@@ -191,7 +191,11 @@ body {
     margin-top: 0.62rem;
     padding: 0 0.5rem;
 }
-
+.gender-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
 .gender-input{
     display: flex;
     align-items: center;
@@ -338,7 +342,9 @@ color: var(--light-color-backgraund);
         width: 90%;
         height: auto;
     }
-
+    .form-header {
+        gap: 15px;
+    }
     .input-group {
         flex-direction: column;
         overflow-y: scroll;
@@ -353,6 +359,7 @@ color: var(--light-color-backgraund);
 
     .gender-group {
         flex-direction: column;
+        
     }
 
     .gender-title h6 {
