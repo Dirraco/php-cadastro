@@ -39,6 +39,3 @@
 5)Entrega:
 
     Após concluir o desenvolvimento do sistema, envie seu código-fonte e quaisquer instruções necessárias para executá-lo para o seguinte endereço de e-mail: otd_ej@outlook.com . Certifique-se de incluir quaisquer dependências ou configurações adicionais que possam ser necessárias.
-
-
-

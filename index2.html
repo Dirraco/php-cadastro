@@ -14,7 +14,8 @@
         </div>
         <div class="form" id="login_form" class="input-field">
             <i id="mode_icon" class="fa-solid fa-moon"></i>
-            <form action="#">
+            <form action="./assets/PHP/gerente-salvar.php" method="POST">
+                <input type="hidden" name="acao" value="cadastrar">
                 <div class="form-header">
                     <div class="title">
                         <h1>Cadastre-se</h1>
@@ -47,9 +48,12 @@
                     <div class="input-box">
                         <label for="confirmPassword">Confirme sua senha</label>
                         <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite sua senha" required>
-                    </div>                    
+                    </div>
+                    <div class="input-box">
+                        <label for="salario__usuario">Salário</label>
+                        <input id="salario__usuario" type="number" name="salarioUsuario" placeholder="Digite salário" required>
+                    </div>                       
                 </div>
-
                 <div class="gender-inputs">
                     <div>
                         <div class="gender-title">
@@ -57,19 +61,19 @@
                         </div>
                         <div class="gender-group">
                             <div class="gender-input">
-                                <input type="radio" name="gender" id="famale">
+                                <input type="radio" name="gender" id="famale" value="feminino" required>
                                 <label for="famale">Feminino</label>
                             </div>
                             <div class="gender-input">
-                                <input type="radio" name="gender" id="male">
-                                <label for="male">Masculinno</label>
+                                <input type="radio" name="gender" id="male" value="masculino" required>
+                                <label for="male">Masculino</label>
                             </div>
                             <div class="gender-input">
-                                <input type="radio" name="gender" id="others">
+                                <input type="radio" name="gender" id="others" value="outros" required>
                                 <label for="others">Outros</label>
                             </div>
                             <div class="gender-input">
-                                <input type="radio" name="gender" id="none">
+                                <input type="radio" name="gender" id="none" value="prefiro nao dizer" required>
                                 <label for="none">Prefiro não dizer</label>
                             </div>
                         </div>
@@ -78,24 +82,24 @@
                         <div class="gender-title">
                             <h6>Cargo</h6>
                         </div>
-                        <div class="gender-group">
+                        <div class="gender-group" >
                             <div class="gender-input">
-                                <input type="radio" name="cargo" id="famale">
+                                <input type="radio" name="cargo" id="funcionario" value="funcionario" required>
                                 <label for="famale">funcionário</label>
                             </div>
                             <div class="gender-input">
-                                <input type="radio" name="cargo" id="male">
+                                <input type="radio" name="cargo" id="gerente" value="gerente" required>
                                 <label for="male">Gerente</label>
                             </div>
                             <div class="gender-input">
-                                <input type="radio" name="cargo" id="others">
+                                <input type="radio" name="cargo" id="others" value="others" required>
                                 <label for="others">Outros</label>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="continue-button">
-                    <button><a href="#">Continuar</a></button>
+                    <button id="enviar_formulario"  type="submit">Continuar</button>
                 </div>
             </form>
         </div>

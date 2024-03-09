@@ -8,11 +8,11 @@
     --color-dark-100: #0F0F0F;
     --color-dark-900: #000;
 
-    --color-purple-50: #333333;
-    --color-purple-100: #232D3F;
-    --color-purple-200: #0B60B0;
+    --color--50: #333333;
+    --color--100: #232D3F;
+    --color--200: #0B60B0;
 
-    --color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200));
+    --color-gradient: linear-gradient(90deg, var(--color--50), var(--color--100), var(--color--200));
 
     --primary-font: 'Poppins', sans-serif;
 }
@@ -58,7 +58,7 @@
     position: absolute;
     content: '';
     width: 40%;
-    background-color: var(--color-purple-50);
+    background-color: var(--color--50);
     height: 3px;
     bottom: 10px;
     border-radius: 5px;
@@ -88,7 +88,7 @@
     gap: 15px;
     padding: 3px;
     cursor: text;
-    border-bottom: 1px solid var(--color-purple-50);
+    border-bottom: 1px solid var(--color--50);
 }
 
 .input-field i {
