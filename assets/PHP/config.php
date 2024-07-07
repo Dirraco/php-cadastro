@@ -6,5 +6,3 @@
     define('BASE', 'usuario_loja');
 
     $conn = new MySQLi(HOST, USER, PASS, BASE);
-
-?>
